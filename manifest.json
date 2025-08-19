@@ -1,0 +1,13 @@
+{
+  "visualization": {
+    "id": "blue-water-visual",
+    "label": "푸르게 변하는 불광천",
+    "description": "참여자가 많아질수록 하천 색이 점점 푸르게 변합니다",
+    "components": {
+      "scripts": ["index.js"]
+    }
+  },
+  "data": {
+    "metrics": ["참여자수"]
+  }
+}
