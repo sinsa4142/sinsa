@@ -5,10 +5,27 @@
   "logoUrl": "https://sinsa4142.github.io/sinsa/logo.png",
   "supportUrl": "https://sinsa4142.github.io/sinsa/",
   "devMode": true,
-  "resources": {
-    "js": [
-      "index.js"
+  "components": {
+    "scripts": [
+      "https://sinsa4142.github.io/sinsa/index.js"
     ]
   },
-  "version": "1.0.0"
+  "resources": {
+    "js": [
+      "https://sinsa4142.github.io/sinsa/index.js"
+    ]
+  },
+  "data": {
+    "metrics": [
+      {
+        "id": "participants",
+        "label": "참여자 수"
+      }
+    ],
+    "dimensions": []
+  },
+  "version": "1.0.0",
+  "requirements": {
+    "minDataPoints": 1
+  }
 }
