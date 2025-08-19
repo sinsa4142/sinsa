@@ -1,3 +1,5 @@
+const dscc = require('dscc');
+
 // 데이터 들어오면 실행되는 함수
 function drawViz(data) {
   const rows = data.tables.DEFAULT;
