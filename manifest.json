@@ -1,13 +1,21 @@
 {
-  "visualization": {
-    "id": "blue-water-visual",
-    "label": "푸르게 변하는 불광천",
-    "description": "참여자가 많아질수록 하천 색이 점점 푸르게 변합니다",
-    "components": {
-      "scripts": ["index.js"]
-    }
+  "name": "푸르게 변하는 불광천",
+  "organization": "sinsa4142",
+  "description": "참여자가 많아질수록 하천 색이 점점 푸르게 변합니다",
+  "logoUrl": "https://sinsa4142.github.io/sinsa/logo.png",
+  "supportUrl": "https://sinsa4142.github.io/sinsa/",
+  "devMode": true,
+  "resources": {
+    "js": [
+      "index.js"
+    ]
   },
   "data": {
-    "metrics": ["참여자수"]
+    "metrics": [
+      {
+        "id": "participants",
+        "label": "참여자수"
+      }
+    ]
   }
 }
