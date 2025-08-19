@@ -6,8 +6,11 @@
   "supportUrl": "https://sinsa4142.github.io/sinsa/",
   "devMode": true,
   "resources": {
-    "scripts": [
+    "js": [
       "index.js"
+    ],
+    "html": [
+      "index.html"
     ]
   },
   "version": "1.0.0"
