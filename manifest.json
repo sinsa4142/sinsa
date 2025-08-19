@@ -1,10 +1,15 @@
 {
   "name": "푸르게 변하는 불광천",
   "organization": "sinsa4142",
-  "description": "참여자가 많아질수록 하천 색이 점점 푸르게 변합니다",
+  "description": "참여자가 많아질수록 불광천이 점점 푸르게 변하는 시각효과",
   "logoUrl": "https://sinsa4142.github.io/sinsa/logo.png",
   "supportUrl": "https://sinsa4142.github.io/sinsa/",
   "devMode": true,
+  "components": {
+    "scripts": [
+      "index.js"
+    ]
+  },
   "resources": {
     "js": [
       "index.js"
@@ -14,10 +19,13 @@
     "metrics": [
       {
         "id": "participants",
-        "label": "참여자수"
+        "label": "참여자 수"
       }
-    ]
+    ],
+    "dimensions": []
+  },
+  "version": "1.0.0",
+  "requirements": {
+    "minDataPoints": 1
   }
 }
-
- 
