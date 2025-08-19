@@ -5,14 +5,9 @@
   "logoUrl": "https://sinsa4142.github.io/sinsa/logo.png",
   "supportUrl": "https://sinsa4142.github.io/sinsa/",
   "devMode": true,
-  "components": {
-    "scripts": [
-      "https://sinsa4142.github.io/sinsa/index.js"
-    ]
-  },
   "resources": {
     "js": [
-      "https://sinsa4142.github.io/sinsa/index.js"
+      "https://sinsa4142.github.io/sinsa/index.html"
     ]
   },
   "data": {
